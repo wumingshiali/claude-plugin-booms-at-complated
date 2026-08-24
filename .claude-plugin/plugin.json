@@ -1,0 +1,15 @@
+{
+  "name": "booms-at-completed",
+  "version": "1.0.0",
+  "description": "当模型输出 eol token 时播放 creeper 爆炸音效",
+  "author": {
+    "name": "幽浮喵"
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "command": "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File \"D:\\Ali\\plugin\\claude-plugin-booms-at-complated\\hook-play.ps1\""
+      }
+    ]
+  }
+}
